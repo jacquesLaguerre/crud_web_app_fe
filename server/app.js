@@ -21,7 +21,7 @@ app.use(express.urlencoded({extended : false }));
 
 // read
 app.get('/getAll', (request, response) => {
-  console.log('/test');
+  console.log('test');
 
 });
 // update
